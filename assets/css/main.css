@@ -2713,7 +2713,8 @@ input, select, textarea {
 			}
             
             .tiles article.white_text h2{
-                color: white;
+                color: black;
+                background-color: white;
             }
 
 			.tiles article.black_text > .image:before {
@@ -2722,6 +2723,10 @@ input, select, textarea {
             
 			.tiles article.black_text > a {
                 color: black;
+			}
+
+			.tiles article.token > .image:before {
+				background-color: rgb(0,0,0,0);
 			}
 
 			.tiles article.style2 > .image:before {
