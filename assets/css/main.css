@@ -2713,8 +2713,17 @@ input, select, textarea {
 			}
             
             .tiles article.white_text h2{
+                color: white;
+            }
+
+            .tiles article.white_text_token h2{
                 color: black;
                 background-color: white;
+            }
+
+            .tiles article.black_text_token h2{
+                color: white;
+                background-color: rgb(0,0,0,0.3);
             }
 
 			.tiles article.black_text > .image:before {
